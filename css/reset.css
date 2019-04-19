@@ -1,0 +1,52 @@
+html,
+body {
+	font-size: 12px;
+	background-color: #f1f1f1;
+	color: #333;
+}
+
+html,
+body,
+div,
+p,
+input,
+ul,
+li,
+img,
+header,
+footer,
+section,
+figure,
+figcaption,
+nav,
+article {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img,
+button {
+	border: none;
+}
+
+.no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.body-wrap {
+	padding-left: calc(100vw - 100%);
+}
+
+input:focus,
+button:focus{
+	outline: none;
+}

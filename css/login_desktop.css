@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(244, 244, 244);
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	-webkit-appearance: none;
+	width: 100%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+	width: 100%;
+	height: 34px;
+	line-height: 16px;
+	font-size: 14px;
+	text-indent: 20px;
+	border: 0;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	border: 1px solid rgb(221, 221, 221);
+	margin-top: 20px;
+	background-repeat: no-repeat;
+    text-indent: 32px;
+    background-position: 2px 5px;
+}
+
+input::-webkit-input-placeholder {
+	color: rgb(153, 153, 153);
+}
+
+input:-moz-placeholder {
+	color: rgb(153, 153, 153);
+}
+
+input::-moz-placeholder {
+	color: rgb(153, 153, 153);
+}
+
+input:-ms-input-placeholder {
+	color: rgb(153, 153, 153);
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.bg img{
+	width: 100%;
+	height: 100%;
+}
+
+#login {
+	position: relative;
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 376px;
+	height: 336px;
+	margin-left: -188px;
+	margin-top: -166px;
+	border-radius: 10px; */
+}
+
+.inner-bg {
+	position: relative;
+	top:0;
+	left: 0;
+	width: 376px;
+	height: 336px;
+	background-color: #fff;
+	opacity: 0.9;
+    border-radius: 10px;
+}
+
+#login ul {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 376px;
+	height: 336px;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#login ul li {
+	padding: 0 40px;
+}
+
+#login ul li.tabs {
+	padding: 0;
+}
+
+#login ul li .tab {
+	width: 50%;
+    height: 56px;
+    line-height: 56px;
+	font-size: 18px;
+	color: rgb(153, 153, 153);
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 2px solid rgb(221, 221, 221);
+}
+
+#login ul li .tab.active {
+	color: rgb(156, 123, 76);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(156, 123, 76);
+}
+
+#login ul li #username {
+	background-image: url(../img/login-icon-user.png);
+}
+
+#login.phone ul li #username {
+	background-image: url(../img/login-icon-phone.png);
+}
+
+#login ul li #password {
+	background-image: url(../img/login-icon-lock.png);
+}
+
+#login ul li .get-pwd-btn {
+	position: absolute;
+    top: 24px;
+    right: 35px;
+    width: 90px;
+    height: 32px;
+    line-height: 16px;
+    padding: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+	text-decoration: none;
+	border:0;
+}
+
+#login ul li .get-pwd-btn .get-pwd-btn-inner {
+	color: rgb(156, 123, 76);
+}
+
+#login ul li #code {
+	height: 16px;
+	line-height: 16px;
+	padding: 15px 0px;
+	text-indent: 20px;
+	-webkit-appearance: none;
+	font-size: 11px;
+	font-family: "微软雅黑";
+	border: 1px solid #ccc;
+	border-radius: 0 0 5px 5px;
+	border-top: none;
+	background-image: url(../img/shuo.png);
+	background-repeat: no-repeat;
+	text-indent: 48px;
+	background-position: 8.5px;
+	-webkit-appearance: none;
+	-webkit-text-security: disc;
+}
+#login ul .password-item {
+	position: relative;
+}
+
+#login ul .agreement-item {
+	float: left;
+	margin-top: 10px;
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+	height: 20px;
+	line-height: 20px
+}
+
+#login ul .agreement-btn {
+	color: rgb(51, 51, 51);
+}
+
+#login ul .lang-btn-item {
+	position: relative;
+	height: 35px;
+	text-align: right;
+}
+
+#login ul li #checkIt {
+	margin-top: 16px;
+	background-color: #f5871a;
+}
+
+#login ul li .a {
+	font-size: 14px;
+	color: #4c4c4c;
+	font-family: "微软雅黑";
+}
+
+#login ul li .login-btn {
+	height: 44px;
+	line-height: 44px;
+	padding: 0;
+	margin-top: 35px;
+	background-color: rgb(156, 123, 76);
+	border: 0px solid;
+	font-size: 18px;
+	color: #ffffff;
+	font-family: "微软雅黑";
+	border-radius: 5px;
+}
+
+#login ul li .btn-disabled {
+	background-color: rgb(221, 221, 221);
+}
+
+.checkbox {
+	display: inline-block;
+	vertical-align: middle;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 0 1.2px;
+	width: 16px;
+	height: 16px;
+	border-radius: 4px;
+	background-color: rgb(156, 123, 76);
+	background-image: url(../img/login-icon-check.png);
+	background-size: 95% 95%;
+	background-position: center;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.checkbox img {
+	width: 100%;
+}
+
+.unchecked {
+	background-color: #ccc;
+}
+
+.lang-btn {
+	height: 45px;
+    line-height: 45px;
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.more-hr {
+	margin-bottom: 0;
+    position: relative;
+    top: 12px;
+    height: 0;
+    border: 0;
+    border-top: 1px solid rgb(221, 221, 221)
+}
+
+#more {
+	position: relative;
+	height: 19px;
+    line-height: 19px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+	background-color: rgb(244, 244, 244);
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+.more-btn {
+    width: 22vw;
+    height: 22vw;
+    margin: 0 auto;
+	border-radius: 11vw;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(39, 177, 249);
+    display: block;
+}
+
+.more-btn-inner {
+	width: 22vw;
+    height: 22vw;
+    background-color: rgb(39, 177, 249);
+    border-radius: 11vw;
+    display: block;
+    background-image: url(../img/account_login.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.more-btn-inner.phone {
+	background-image: url(../img/phone_login.png);
+}
+
+.more-btn-item {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.tip-bg {
+	position: relative;
+    background-color: rgb(39, 177, 249);
+    opacity: 0.5;
+    height: 35px;
+}
+
+#tip {
+	position: relative;
+    top: -35px;
+    height: 35px;
+    line-height: 35px;
+	text-align: center;
+	color: #fff
+}
+
+#login ul li #mobile {
+	width: 60%;
+	border-left: 0;
+	border-radius: 0 5px 0 0;
+	background-image: url(../img/line.png);
+	background-position: 0;
+	text-indent: 5px;
+}
+
+@media only screen and (max-height:265px) {
+	#images {
+		display: none;
+	}
+	#below {
+		display: none;
+	}
+}

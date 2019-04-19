@@ -1,0 +1,89 @@
+.dialog-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    opacity: .5;
+}
+
+.dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1041;
+    width: 420px;
+    margin-top: -156px;
+    margin-left: -210px;
+    text-align: center;
+    font-family: Microsoft YaHei, Arial, Helvetica, Sans-Serif;;
+}
+
+.icon-container {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 45px; 
+    background-color: #fff;
+}
+
+.icon-container img {
+    background-color: #38b059;
+}
+
+.dialog-content {
+    width: 100%;
+    margin-top: -38px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dialog-content .title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:#000;
+}
+
+.dialog-content p {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(144,144,144);
+}
+
+.dialog .input-group {
+    margin-top: 35px;
+}
+.dialog .input-group input {
+    width: 50%;
+    height: 50px;
+    border: 0px;
+    outline: none;
+    background-color: rgb(242,242,242);
+    color: rgb(144,144,144);
+    cursor: pointer;
+}
+
+.dialog-content a {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(56, 176, 89);
+    text-align: left;
+}
+
+.dialog-content a img {
+    background-color: rgb(56, 176, 89);
+    margin-top: 27px;
+    margin-left: 12px;
+    width: 12px;
+}

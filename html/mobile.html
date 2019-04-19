@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+	<meta name="apple-mobile-web-app-title" content="capri" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<meta name="renderer" content="webkit" />
+	<title>capri</title>
+	<link rel="favourites icon" href="../img/favicon.ico" />
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/terms.css" />
+	<link rel="stylesheet" href="../css/login_desktop.css" />
+	<link rel="stylesheet" href="../css/mobile.css" />
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<section class="help">
+				<figure>
+					<img src="../img/logo.jpg" alt="logo" />
+					<figcaption>
+						<nav>
+							<ul>
+								<li>For more information, please contact the front desk</li>
+								<li>GRO or dial extension "0" Enjoy your stay</li>
+								<li>如需更多信息，请联系前台宾馆关系主任或拨打分机号</li>
+								<li>0</li>
+								<li>祝您入住愉快</li>
+							</ul>
+						</nav>
+					</figcaption>
+				</figure>
+			</section>
+		</header>
+		<article class="article">
+			<ul>
+				<li>Please read and agree to the Terms and Conditions</li>
+				<li>before you proceed to use Fraser Connect internet</li>
+				<li>Access:</li>
+				<li>使用网络前请先阅读并同意本公寓的免责声明</li>
+			</ul>
+		</article>
+		<section class="content form">
+			<div class="phone" id="login">
+				<input class="active" id="active_color" type="hidden">
+				<input class="active" id="active_border_color" type="hidden">
+				<ul>
+					<li class="tabs">
+						<a class="tab sms active" href="javascript:;" data-replacer='SMS login' data-replace-target='html'>SMS
+							login<br />手机登录</a>
+						<a class="tab account" href="javascript:;" data-replacer='Account login' data-replace-target='html'>Account
+							login<br />账号登录</a>
+						<a class="tab wechat" href="javascript:;" data-replacer='Wechat login' data-replace-target='html'>Wechat
+							login<br />微信登录</a>
+					</li>
+					<li class="template10026 input-form">
+						<input id="username" type="tel" placeholder="phone number 请输入手机号" autocomplete="off" data-replacer="Mobile number"
+							data-replace-target="placeholder" />
+					</li>
+					<li class="password-item template10026 input-form">
+						<input id="password" type="password" placeholder="validation code 请输入验证码" autocomplate="off" data-replacer="Password"
+							data-replace-target="placeholder" />
+						<a class="get-pwd-btn" id="get_pwd_btn" href="javascript:;"><span class="get-pwd-btn-inner"
+								id="get_pwd_btn_inner" data-replacer="GET PWD" data-replace-target="html">Get code<br />获取验证码</span></a>
+					</li>
+					<li class="template10026">
+						<input class="btn no-select" id="login_btn" type="button" value="login 登录" data-replacer="LOGIN"
+							data-replace-target="value">
+					</li>
+					<li>
+						<div class="agreement-item template10026">
+							<span id="checkbox" class="checkbox"></span>
+							<span data-replacer="I agree to the " data-replace-target="html">I agree to the </span>
+							<a class="agreement-btn" id="agreement-btn" data-replacer="Terms &amp; Conditions"
+								data-replace-target="html" href="javascript:;">Terms and Conditions</a>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
+		</section>
+	</div>
+
+	<!-- wechat -->
+	<input class="wechat_btn login-btn" id="wechat_btn" type="button" value="微信认证" />
+	<div class="main_content" id="main_content">
+		<h2 class="main_content_title">
+			欢迎使用<em>免费Wi-Fi</em>
+		</h2>
+		<div class="main_content_qrcode" id="qrcode_zone"></div>
+		<div class="main_content_info">使用微信扫描二维码</div>
+	</div>
+
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/authenticator.js"></script>
+	<script src="../js/dialog.js"></script>
+	<script src="../js/terms.js"></script>
+	<script src="../js/region.js"></script>
+	<script src="../js/main.js"></script>
+
+</body>
+
+</html>

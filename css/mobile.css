@@ -1,0 +1,101 @@
+/* help */
+.help{
+	padding: 20px 0 10px;
+	text-align: center;
+	color: #fff;
+	background-color: #889EAB;
+}
+.help img{
+	width: 45vw;
+}
+.help li{
+	line-height: 1.5;
+}
+
+/* article */
+.article{
+	padding: 20px 0 10px;
+	text-align: center;
+}
+.article li{
+	line-height: 1.5;
+}
+
+/* login reset */
+#login ul{
+	position: static;
+	width: 80vw;
+	margin: 0 auto;
+}
+#login ul li{
+	padding: 0;
+}
+#login ul li.tabs{
+	overflow: hidden;
+}
+#login ul li.tabs a{
+	float: left;
+}
+#login ul li .tab{
+	width: 33.33%;
+	height: 36px;
+	line-height: 18px;
+	font-size: 12px;
+}
+#login ul li .tab.active{
+	color:#1C8AB2;
+	border-color: #1C8AB2;
+}
+#login ul li .get-pwd-btn .get-pwd-btn-inner{
+	color:#1C8AB2;
+}
+.checkbox{
+	background-color: #1C8AB2;
+}
+.checkbox.unchecked{
+	background-color: #ccc;
+}
+#login ul .agreement-item{
+	float: none;
+	text-align: center;
+}
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+	margin-top: 10px;
+}
+#login ul li .get-pwd-btn{
+	top: 12px;
+}
+
+.form .btn {
+	margin: 10px auto 20px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #1C8AB2;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+#login ul li .get-pwd-btn{
+	right: 0;
+}
+
+/* wechat */
+#qrcode_zone{
+	width:250px;
+	height:250px;
+}
+#wechat_btn{
+	position: absolute;
+	left: -1000000px;
+}
+#main_content{
+	display: none;
+}
